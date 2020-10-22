@@ -1,0 +1,13 @@
+.text-align-right {
+  text-align: right;
+}
+
+.icon {
+  display: inline-block;
+  line-height: inherit;
+  vertical-align: middle;
+  align-items: center;
+  &.-love {
+    color: red;
+  }
+}
