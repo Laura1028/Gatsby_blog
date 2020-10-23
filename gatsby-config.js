@@ -13,6 +13,8 @@ const netlifyCmsPaths = {
 const settings = require("./src/util/site.json")
 
 module.exports = {
+  pathPrefix: 'blog',
+  assetPrefix: '',
   siteMetadata: settings.meta,
   plugins: [
     {
